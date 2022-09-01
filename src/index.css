@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title-topic {
+  font-family: Courier New;
+  font-size: 3em;
+}
+
+li {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.4em 0.6em;
+  transition: 0.4s;
+}
+
+li:hover {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  border-radius: 25px;
+  box-shadow: 0.625em 0.625em 0.625em 0.3125em #3e3433;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.btn-redirect {
+  padding: 0.5em 1em;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.btn-redirect:hover {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.active {
+  padding: 0.4em 0.6em;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* #ffffff #f6f7ef #ecefdf #e3e6ce #d9debe */
