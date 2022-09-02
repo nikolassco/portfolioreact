@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# PORTFOLIO
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/nikolassco/portfolioreact/blob/main/LICENSE) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
+Portfólio desenvolvido utilizando html, CSS e JS(ReactJS). O objetivo desse projeto foi reunir os meus projetos pessoais, com links para teste e para ver o código, e também links para entrar em contato comigo.
 
-## Available Scripts
+## Layout
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_20_20.png)
 
-In the project directory, you can run:
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_20_42.png)
 
-### `npm start`
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_21_05.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_21_55.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_22_17.png)
 
-### `npm test`
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_20_29.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_20_52.png)
 
-### `npm run build`
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_21_47.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_22_00.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_22_38.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tecnologia: JavaScript / REACTJS
 
-### `npm run eject`
+## Link para testar o projeto e fazer pedido 
+https://portfolionikolas.netlify.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Como executar o projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Pré-requisitos: É preciso ter o Node instalado para usar o NPM
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# clonar repositório
+git clone https://github.com/nikolassco/portfolioreact.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Abra a pasta no VSCode
 
-## Learn More
+```bash
+# baixar dependências
+npm install
+# e executar o projeto
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Nikolas Santa Clara
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.linkedin.com/in/nikolas-santa-clara-90619a16a/
