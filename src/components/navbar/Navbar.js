@@ -1,8 +1,8 @@
 import { useRef } from 'react';
 import styles from './Navbar.module.css';
 import { Link as LinkScroll } from 'react-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const ref = useRef(null);
@@ -18,10 +18,13 @@ const Navbar = () => {
   return (
     <header className={styles.navbar}>
       <input type="checkbox" id="check" className={styles.checkinput} ref={ref} />
-      <label htmlFor="check" className={styles.checkbtn} >
-        <FontAwesomeIcon icon={faBars} />
-      </label>
       <p className={styles.logo}>Portfolio</p>
+      <label htmlFor="check" className={styles.checkbtn} >
+        <AiOutlineMenu />
+      </label>
+      <label htmlFor="check" className={styles.checkbtnclose} >
+        <AiOutlineClose />
+      </label>
       <ul className={styles.menu_list} id="navmenu">
         <li className={styles.menu_item}>
           <LinkScroll to="resume" spy={true} smooth={true} offset={-70} duration={500} className={styles.link} onClick={closeMenu} >Home</LinkScroll>
