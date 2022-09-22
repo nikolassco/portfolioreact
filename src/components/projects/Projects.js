@@ -10,7 +10,7 @@ const Projects = () => {
       <div className={styles.cards}>
         {projectsList && projectsList.map((project) => (
           <div key={project.id} className={styles.cover}>
-            <h2>{project.name.toUpperCase()}</h2>
+            <h2 className={styles.cover_name}>{project.name.toUpperCase()}</h2>
             <img src={project.img} alt="landing page delivery" />
             <Link to={`/project/${project.id}`} className="btn-redirect">Ver detalhes</Link>
           </div>

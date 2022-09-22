@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Resume.module.css';
-import imgProfile from '../../images/imgPerfil.png';
+import { BigHead } from '@bigheads/core';
 import imgGithub from '../../images/githubff.svg';
 import imgLinkedin from '../../images/linkedinff.svg';
 
@@ -16,7 +16,7 @@ const Resume = () => {
         </div>
         <div className={styles.link}>
           {/* upload para github, copiar o link e trocar palavra blob por raw */}
-          <a href='https://github.com/nikolassco/asset/raw/main/Curriculo%20Nikolas%20Oliveira.pdf' download='' className='btn-redirect'>Currículo.pdf</a>
+          <a href='https://github.com/nikolassco/asset/raw/main/Curriculo%20Nikolas%20Oliveira.pdf' download='' className='btn-redirect'>Baixar currículo.pdf </a>
         </div>
         <div className={styles.icons}>
           <div className={styles.links1}>
@@ -40,9 +40,25 @@ const Resume = () => {
           </div>
         </div>
       </div>
-      <div className={styles.img_profile}>
-        <img src={imgProfile} alt="Foto do Perfil" />
-      </div>
+      <BigHead className={styles.caricatureBigHead}
+        accessory="shades"
+        body="chest"
+        circleColor="blue"
+        clothing="shirt"
+        clothingColor="black"
+        eyebrows="raised"
+        eyes="happy"
+        faceMaskColor={false}
+        facialHair="none"
+        graphic="react"
+        hair="pixie"
+        hairColor="brown"
+        hat="none"
+        hatColor="white"
+        lipColor="red"
+        mouth="grin"
+        skinTone="yellow"
+      />
     </div>
   )
 }

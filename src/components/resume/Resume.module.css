@@ -4,7 +4,7 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  padding-top: 2em;
+  padding: 2em 0 7em;
   background-color: #edf3f6;
 }
 
@@ -22,6 +22,10 @@
 
 .text {
   padding: 0.5em;
+}
+
+.pdf_icon {
+  color: #fff;
 }
 
 .icons {
@@ -67,8 +71,13 @@
   opacity: 0;
 }
 
+.caricatureBigHead {
+  height: 400px;
+  width: 400px;
+}
+
 @media (max-width: 650px) {
-  .img_profile img {
+  .caricatureBigHead {
     display: none;
   }
 }
