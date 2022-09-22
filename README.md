@@ -5,7 +5,7 @@
 Portfólio desenvolvido utilizando html, CSS e JS(ReactJS). O objetivo desse projeto foi reunir os meus projetos pessoais, com links para teste e para ver o código, e também links para entrar em contato comigo.
 
 ## Layout
-![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_20_20.png)
+![Projeto](https://github.com/nikolassco/asset/blob/main/Portf%C3%B3lio%20Nikolas%20-%20Google%20Chrome%2022_09_2022%2013_29_03.png)
 
 ![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_20_42.png)
 
@@ -13,7 +13,11 @@ Portfólio desenvolvido utilizando html, CSS e JS(ReactJS). O objetivo desse pro
 
 ![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_21_55.png)
 
-![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_22_17.png)
+![Projeto](https://github.com/nikolassco/asset/blob/main/Portf%C3%B3lio%20Nikolas%20-%20Google%20Chrome%2022_09_2022%2013_36_12.png)
+
+![Projeto](https://github.com/nikolassco/asset/blob/main/Portf%C3%B3lio%20Nikolas%20-%20Google%20Chrome%2022_09_2022%2013_29_26.png)
+
+![Projeto](https://github.com/nikolassco/asset/blob/main/Portf%C3%B3lio%20Nikolas%20-%20Google%20Chrome%2022_09_2022%2013_29_14.png)
 
 ![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_20_29.png)
 
@@ -23,7 +27,7 @@ Portfólio desenvolvido utilizando html, CSS e JS(ReactJS). O objetivo desse pro
 
 ![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_22_00.png)
 
-![Projeto](https://github.com/nikolassco/asset/blob/main/React%20App%20-%20Google%20Chrome%2002_09_2022%2016_22_38.png)
+![Projeto](https://github.com/nikolassco/asset/blob/main/Portf%C3%B3lio%20Nikolas%20-%20Google%20Chrome%2022_09_2022%2013_36_16.png)
 
 Tecnologia: JavaScript / REACTJS
 
