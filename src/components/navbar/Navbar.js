@@ -8,9 +8,9 @@ const Navbar = () => {
   const ref = useRef(null);
 
   const closeMenu = (e) => {
-    let largura = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     const checkRef = ref.current;
-    if (largura <= 858) {
+    if (width <= 858) {
       checkRef.checked = false;
     }
   }
