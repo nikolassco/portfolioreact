@@ -1,11 +1,27 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from './Navbar.module.css';
 import { Link as LinkScroll } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
+import { useWindowScroll } from 'react-use';
 
 const Navbar = () => {
   const ref = useRef(null);
+  const { x, y } = useWindowScroll();
+  const [lastScroll, setLastScroll] = useState(0);
+  const [navCss, setNavCss] = useState(styles.navbar);
+
+  console.log(x, y);
+
+  useEffect(() => {
+    if (y === lastScroll) return;
+    if (y > lastScroll && y > 100) {
+      setNavCss(styles.navbar_hidden);
+    } else {
+      setNavCss(styles.navbar);
+    }
+    setLastScroll(y);
+  }, [lastScroll, y])
 
   const closeMenu = (e) => {
     let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
@@ -16,7 +32,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className={styles.navbar}>
+    <header className={navCss}>
       <input type="checkbox" id="check" className={styles.checkinput} ref={ref} />
       <p className={styles.logo}>Portfolio</p>
       <label htmlFor="check" className={styles.checkbtn} >
