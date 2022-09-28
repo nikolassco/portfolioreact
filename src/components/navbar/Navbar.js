@@ -15,8 +15,8 @@ const Navbar = () => {
 
   useEffect(() => {
     if (y === lastScroll) return;
-    if (y > lastScroll && y > 100) {
-      setNavCss(styles.navbar_hidden);
+    if (y > lastScroll && y > 700) {
+      setNavCss();
     } else {
       setNavCss(styles.navbar);
     }

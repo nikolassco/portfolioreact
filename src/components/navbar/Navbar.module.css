@@ -9,10 +9,8 @@
   background-color: #bbb;
   opacity: 0.9;
   font-weight: bold;
-}
-
-.navbar_hidden {
-  display: none;
+  -webkit-animation: slide 0.3s ease-out;
+  animation: slide 0.3s ease-out;
 }
 
 .logo {
@@ -90,5 +88,25 @@
 @media (max-width: 317px) {
   .logo {
     padding: 0 50px;
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
   }
 }
