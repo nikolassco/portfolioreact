@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className={styles.links2}>
           <a
-            href="https://www.linkedin.com/in/nikolas-santa-clara-90619a16a/">
+            href="https://www.linkedin.com/in/nikolas-santa-clara-90619a16a/" target="blank">
             <img
               className={styles.transparente}
               src={imgLinkedin}
