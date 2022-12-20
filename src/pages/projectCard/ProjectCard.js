@@ -23,11 +23,11 @@ const ProjectCard = () => {
           <div className={styles.project_links}>
             <div className={styles.project_link}>
               <p>Clique para ver o repositório no GitHub</p>
-              <a href={project.githubUrl} className='btn-redirect'>GitHub</a>
+              <a href={project.githubUrl} className='btn-redirect' target="_blank" rel="noreferrer">GitHub</a>
             </div>
             <div className={styles.project_link}>
               <p>Clique para acessar ao site e testar sua funcionalidade</p>
-              <a href={project.pageLink} className='btn-redirect'>View Live</a>
+              <a href={project.pageLink} className='btn-redirect' target="blank" rel="noreferrer">View Live</a>
             </div>
           </div>
           <img src={project.img} alt="Layout da Página" />

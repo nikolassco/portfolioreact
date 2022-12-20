@@ -9,7 +9,7 @@ const Footer = () => {
       <p>Portfolio Desenvolvido por <br /> <span>Nikolas</span> &copy; 2022</p>
       <div className={styles.icons}>
         <div className={styles.links1}>
-          <a href="https://github.com/nikolassco" target="blank">
+          <a href="https://github.com/nikolassco" target="blank" rel="noreferrer">
             <img
               className={styles.transparente}
               src={imgGithub}
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className={styles.links2}>
           <a
-            href="https://www.linkedin.com/in/nikolas-santa-clara-90619a16a/" target="blank">
+            href="https://www.linkedin.com/in/nikolas-santa-clara-90619a16a/" target="blank" rel="noreferrer">
             <img
               className={styles.transparente}
               src={imgLinkedin}

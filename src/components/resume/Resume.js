@@ -16,11 +16,11 @@ const Resume = () => {
         </div>
         <div className={styles.link}>
           {/* upload para github, copiar o link e trocar palavra blob por raw */}
-          <a href='https://github.com/nikolassco/asset/raw/main/Curriculo%20Nikolas%20Oliveira.pdf' download='' className='btn-redirect'>Baixar currículo.pdf </a>
+          <a href='https://github.com/nikolassco/asset/raw/main/Curriculo%20Nikolas%20Oliveira.pdf' download='' className='btn-redirect' target="blank" rel="noreferrer">Baixar currículo.pdf </a>
         </div>
         <div className={styles.icons}>
           <div className={styles.links1}>
-            <a href="https://github.com/nikolassco" target="blank">
+            <a href="https://github.com/nikolassco" target="blank" rel="noreferrer">
               <img
                 className={styles.transparente}
                 src={imgGithub}
@@ -30,7 +30,7 @@ const Resume = () => {
           </div>
           <div className={styles.links2}>
             <a
-              href="https://www.linkedin.com/in/nikolas-santa-clara-90619a16a/" target="blank">
+              href="https://www.linkedin.com/in/nikolas-santa-clara-90619a16a/" target="blank" rel="noreferrer">
               <img
                 className={styles.transparente}
                 src={imgLinkedin}
