@@ -1,9 +1,17 @@
 import React from 'react';
 import styles from './About.module.css';
 
+import { useInView } from 'react-intersection-observer';
+
 const About = () => {
+  const { ref: container, inView: containerIsVisible } = useInView();
+
   return (
-    <div className={styles.container} id='about'>
+    <div
+      ref={container}
+      className={`${styles.container} ${containerIsVisible ? 'animated_show' : ''}`}
+      id='about'
+    >
       <h1 className='title-topic'>SOBRE MIM</h1>
       <div className={styles.text}>
         <p>Meu nome é Nikolas Oliveira, eu tenho 26 anos e sou uma pessoa apaixonada por tecnologia e em 2020 decidi trilhar o caminho da programação. Focado em Desenvolvimento Web. Aprendi com projetos em cursos envolvendo CRUD, APIs e banco de dados. E nos meus projetos pessoais resolvi focar nas tecnologias voltadas ao Front-End. <br />
@@ -14,4 +22,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

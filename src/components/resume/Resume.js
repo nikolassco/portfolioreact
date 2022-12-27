@@ -4,9 +4,17 @@ import { BigHead } from '@bigheads/core';
 import imgGithub from '../../images/githubff.svg';
 import imgLinkedin from '../../images/linkedinff.svg';
 
+import { useInView } from 'react-intersection-observer';
+
 const Resume = () => {
+  const { ref: container, inView: containerIsVisible } = useInView();
+
   return (
-    <div className={styles.container} id='resume'>
+    <div
+      ref={container}
+      className={`${styles.container} ${containerIsVisible ? 'animated_show' : ''}`}
+      id='resume'
+    >
       <div className={styles.presentation}>
         <div className={styles.text}>
           <h1>Oi, eu sou <span >Nikolas!</span>

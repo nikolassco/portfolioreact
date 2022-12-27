@@ -91,4 +91,19 @@ span {
   color: #fff;
 }
 
+.animated_show {
+  animation: .9s linear slidein;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: .5;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 /* #ffffff #f6f7ef #ecefdf #e3e6ce #d9debe */
