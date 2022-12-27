@@ -7,11 +7,11 @@ import { useWindowScroll } from 'react-use';
 
 const Navbar = () => {
   const ref = useRef(null);
-  const { x, y } = useWindowScroll();
+  const { y } = useWindowScroll();
   const [lastScroll, setLastScroll] = useState(0);
   const [navCss, setNavCss] = useState(styles.navbar);
 
-  console.log(x, y);
+  // console.log(x, y);
 
   useEffect(() => {
     if (y === lastScroll) return;
