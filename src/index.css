@@ -92,6 +92,7 @@ span {
 }
 
 .animated_show {
+  -webkit-animation: .9s linear slidein;
   animation: .9s linear slidein;
 }
 
