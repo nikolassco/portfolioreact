@@ -76,7 +76,12 @@
 }
 
 @media (max-width: 650px) {
-  .caricatureBigHead {
+
+  /* .caricatureBigHead {
     display: none;
+  } */
+  .container {
+    flex-direction: column-reverse;
+    gap: 50px;
   }
 }
