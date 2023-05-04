@@ -19,8 +19,8 @@ const Resume = () => {
         <div className={styles.text}>
           <h1>Oi, eu sou <span >Nikolas!</span>
           </h1>
-          <h2>Desenvolvedor Front End.</h2>
-          <h3>HTML, CSS, JS, ReactJS</h3>
+          <h2>Desenvolvedor Full-Stack.</h2>
+          <h3>JS, React, Node, SQL</h3>
         </div>
         <div className={styles.link}>
           {/* upload para github, copiar o link e trocar palavra blob por raw */}
