@@ -6,9 +6,13 @@
 
 .cards {
   display: flex;
-  justify-content: center;
+  /* flex-direction: column; */
+  /* justify-content: center; */
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  /* teste carrosel imagens */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
 }
 
 .cover {
@@ -17,9 +21,13 @@
   justify-content: center;
   align-items: center;
   margin: 0 4em 0;
-  padding: 3em 0;
-  border-top: 6px solid #000;
-  width: 100%;
+  /* padding: 3em 0; */
+  /* border-top: 6px solid #000; */
+  /* width: 100%; */
+  /* teste carrosel imagens */
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  padding: 3em;
 }
 
 .cover_name {
