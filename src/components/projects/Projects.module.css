@@ -6,13 +6,11 @@
 
 .cards {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  align-items: center;
-  /* flex-wrap: wrap; */
-  /* teste carrosel imagens */
-  overflow: auto;
+  align-items: flex-start;
+  /*  carrosel imagens */
+  overflow: auto hidden;
   scroll-snap-type: x mandatory;
+  margin: 0 5em 0;
 }
 
 .cover {
@@ -21,26 +19,10 @@
   justify-content: center;
   align-items: center;
   margin: 0 4em 0;
-  /* padding: 3em 0; */
-  /* border-top: 6px solid #000; */
-  /* width: 100%; */
-  /* teste carrosel imagens */
+  padding: 3em;
+  /* carrosel imagens */
   flex-shrink: 0;
   scroll-snap-align: center;
-  padding: 3em;
-}
-
-.cover_name {
-  padding-bottom: 1em;
-}
-
-.cover img {
-  width: 750px;
-  height: 421px;
-}
-
-.cover a {
-  margin-top: 2em;
 }
 
 @media only screen and (max-width: 850px) {

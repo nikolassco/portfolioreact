@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Projects.module.css';
 import { Link } from "react-router-dom";
 import { projectsList } from '../../data/projects';
+import styles from './Projects.module.css';
 
 import { useInView } from 'react-intersection-observer';
 
@@ -21,8 +21,17 @@ const Projects = () => {
         {projectsList && projectsList.map((project) => (
           <div key={project.id} className={styles.cover}>
             <h2 className={styles.cover_name}>{project.name.toUpperCase()}</h2>
-            <img src={project.img} alt="landing page delivery" />
             <Link to={`/project/${project.id}`} className="btn-redirect">Ver detalhes</Link>
+            <div className='projects-imgs'>
+              {project.imgMobile ? (
+                <>
+                  <img src={project.imgDesktop} alt="Layout da Página Desktop" className='project-img-desktop' />
+                  <img src={project.imgMobile} alt="Layout da Página Mobile" className='project-img-mobile' />
+                </>
+              ) : (
+                <img src={project.imgDesktop} alt="Layout da Página Desktop" />
+              )}
+            </div>
           </div>
         ))}
       </div>

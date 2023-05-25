@@ -1,8 +1,8 @@
 import React from 'react';
+import { IoIosArrowDropleft } from 'react-icons/io';
 import { Link, useParams } from "react-router-dom";
 import { projectsList } from '../../data/projects';
 import styles from './ProjectCard.module.css';
-import { IoIosArrowDropleft } from 'react-icons/io'
 
 
 const ProjectCard = () => {
@@ -30,7 +30,16 @@ const ProjectCard = () => {
               <a href={project.pageLink} className='btn-redirect' target="blank" rel="noreferrer">View Live</a>
             </div>
           </div>
-          <img src={project.img} alt="Layout da Página" />
+          <div className='projects-imgs'>
+            {project.imgMobile ? (
+              <>
+                <img src={project.imgDesktop} alt="Layout da Página Desktop" className='project-img-desktop' />
+                <img src={project.imgMobile} alt="Layout da Página Mobile" className='project-img-mobile' />
+              </>
+            ) : (
+              <img src={project.imgDesktop} alt="Layout da Página Desktop" />
+            )}
+          </div>
         </div>
       ))}
     </div>
