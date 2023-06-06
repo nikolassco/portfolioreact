@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { projectsList } from '../../data/projects';
-import styles from './Projects.module.css';
+import styles from './styles.module.css';
 
 import { useInView } from 'react-intersection-observer';
 
@@ -29,7 +29,7 @@ const Projects = () => {
                   <img src={project.imgMobile} alt="Layout da Página Mobile" className='project-img-mobile' />
                 </>
               ) : (
-                <img src={project.imgDesktop} alt="Layout da Página Desktop" />
+                <img src={project.imgDesktop} alt="Layout da Página Desktop" className='project-img-solo' />
               )}
             </div>
           </div>

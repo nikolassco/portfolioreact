@@ -1,8 +1,8 @@
-import React from 'react';
-import styles from './Resume.module.css';
 import { BigHead } from '@bigheads/core';
+import React from 'react';
 import imgGithub from '../../images/githubff.svg';
 import imgLinkedin from '../../images/linkedinff.svg';
+import styles from './styles.module.css';
 
 import { useInView } from 'react-intersection-observer';
 

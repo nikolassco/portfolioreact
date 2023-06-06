@@ -1,9 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import styles from './Navbar.module.css';
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link as LinkScroll } from 'react-scroll';
-import { AiOutlineMenu } from "react-icons/ai";
-import { AiOutlineClose } from "react-icons/ai";
 import { useWindowScroll } from 'react-use';
+import styles from './styles.module.css';
 
 const Navbar = () => {
   const ref = useRef(null);
